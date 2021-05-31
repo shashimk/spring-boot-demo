@@ -15,6 +15,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation group: 'uk.org.webcompere', name: 'system-stubs-jupiter', version: '1.2.0'
+
 }
 
 test {
